@@ -1,1 +1,2 @@
-# My Create React App Template
+# Portfolio - Emilie Østergaard
+cra-template react app
