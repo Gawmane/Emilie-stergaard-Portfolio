@@ -2,4 +2,101 @@
 @import '../Helpers/variabler';
 
 
-header {}
+
+header {
+    background-image: url(../Images/jess-bailey-q10VITrVYUM-unsplash.jpg);
+    background-size: cover;
+    height: 40em;
+    position: relative;
+    margin: -1em;
+
+    img {
+        vertical-align: middle;
+        width: 17em;
+        height: 17em;
+        border-radius: 70%;
+        position: absolute;
+        top: -10em;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    article {
+        border-radius: 1em;
+        padding-top: 7em;
+        background-color: #F4D4C9;
+        position: absolute;
+        top: 17em;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 41vh;
+        color: white;
+        text-align: center;
+
+        h2 {
+            font-size: 2.5em;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            padding-top: 0;
+            margin-top: 0;
+        }
+
+        span {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            font-size: 3em;
+
+
+
+            svg {
+                border: solid 1px white;
+                background-color: white;
+                color: #F4D4C9;
+                border-radius: 50%;
+                padding: 0.2em;
+                cursor: pointer;
+
+                &:hover {
+                    -webkit-animation: rotate-center 0.6s ease-in-out both;
+                    animation: rotate-center 0.6s ease-in-out both;
+                }
+
+            }
+        }
+    }
+}
+
+
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

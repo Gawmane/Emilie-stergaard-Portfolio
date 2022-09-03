@@ -1,4 +1,11 @@
 @import '../Helpers/mixin';
 @import '../Helpers/variabler';
 
-footer {}
+footer {
+    background-color: black;
+    position: sticky;
+
+    width: 100%;
+
+
+}
