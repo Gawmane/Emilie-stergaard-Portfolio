@@ -1,7 +1,7 @@
 import style from '../../assets/Style/Nav.module.scss'
 import { NavLink } from "react-router-dom"
 import { useState } from "react";
-
+import { AiFillHome, AiOutlineClose } from "react-icons/ai";
 
 export const Navigation = () => {
     return (

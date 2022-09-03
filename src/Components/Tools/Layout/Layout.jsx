@@ -21,7 +21,7 @@ const Layout = props => {
             {props.subtitle && (
                 <h2 className="layoutSubtitle">{props.subtitle}</h2>
             )}
-            //Nedaver børn - indhold indeni compment-
+            {/* Nedaver børn - indhold indeni compment- */}
             <ContentWrapper>{props.children}</ContentWrapper>
         </>
     )
