@@ -5,7 +5,6 @@ import { BurgerMenu, Navigation } from '../Partials/Nav'
 export const Header = () => {
     return (
         <>
-
             <Navigation />
             <BurgerMenu />
         </>

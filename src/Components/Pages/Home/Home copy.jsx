@@ -1,10 +1,10 @@
 import { Layout } from "../../Tools/Layout/Layout"
 
-export const Home = () => {
+export const Test = () => {
     return (
         <>
             <Layout title="Home page" description="opgave">
-                Hva så der
+                Hallo
             </Layout>
         </>
     )

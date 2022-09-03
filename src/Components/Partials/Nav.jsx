@@ -7,8 +7,9 @@ export const Navigation = () => {
     return (
         <nav className={style.navigation}>
             <ul className={style.ulwrapper}>
-                <li><NavLink to={'/'}>Home</NavLink></li>
-                <li><NavLink to={'/login'}>Login</NavLink></li>
+                <li><NavLink to={'/'}>Forside</NavLink></li>
+                <li><NavLink to={'/about'}>Om mig</NavLink></li>
+                <li><NavLink to={'/portfolio'}>Portfoilo</NavLink></li>
             </ul>
         </nav>
     )
@@ -31,7 +32,8 @@ export function BurgerMenu() {
 
             <ul className={isActive ? style.activeMenu : style.menu}>
                 <li><NavLink className={style.navigationLinks} to="/" onClick={handleToggle}>Forside</NavLink></li>
-                <li><NavLink className={style.navigationLinks} to="/login" onClick={handleToggle}>Login</NavLink></li>
+                <li><NavLink className={style.navigationLinks} to="/about" onClick={handleToggle}>Om mig</NavLink></li>
+                <li><NavLink className={style.navigationLinks} to="/portfolio" onClick={handleToggle}>Portfolio</NavLink></li>
             </ul>
         </>
     )
