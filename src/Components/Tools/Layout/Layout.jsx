@@ -17,7 +17,7 @@ const Layout = props => {
 
     return (
         <>
-            <h1 className="layoutTitle">{props.title}</h1>
+            <div className="layoutWrapper"><h1 className="layoutTitle">{props.title}</h1></div>
             {props.subtitle && (
                 <h2 className="layoutSubtitle">{props.subtitle}</h2>
             )}

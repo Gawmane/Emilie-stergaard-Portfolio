@@ -5,12 +5,13 @@ import { FaReact, FaSass, FaHtml5 } from "react-icons/fa";
 import { Portfolio } from "../Portfolio/Portfoilo";
 export const Home = () => {
     return (
-
-        <Layout title="" description="opgave">
-            <section>
-                <Portfolio />
-            </section>
-        </Layout>
-
+        <section>
+            <Layout title="www.emilieoestergaard/velkommen" description="opgave">
+                <section>
+                    <h2>Siden er under ombygning - fejl og mangler kan forekomme</h2>
+                    <p>De andre sider virker - bare scroll ned </p>
+                </section>
+            </Layout>
+        </section>
     )
 }

@@ -1,3 +1,54 @@
 body {
-  background-color: #F4D4C9;
+  background-color: #faebe6;
+  overflow-x: hidden;
+
+  .layoutWrapper {
+    color: #F4D4C9;
+    -webkit-text-fill-color: #F4D4C9;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(220, 129, 129);
+    background-color: #fff;
+    border-radius: 1em;
+
+    height: 3em;
+
+    h1 {
+      overflow: hidden;
+      padding: 0.5em 1em;
+      white-space: nowrap;
+      animation: typing 7.5s steps(50, end),
+        blinkcaret .75s step-end infinite;
+      animation-iteration-count: infinite;
+      border-right: .15em solid #F4D4C9;
+      letter-spacing: .25em;
+
+    }
+  }
+
+  @keyframes typing {
+    from {
+      width: 0
+    }
+
+    to {
+      width: 100%
+    }
+  }
+
+  @keyframes blinkcaret {
+
+    from,
+    to {
+      border-color: transparent
+    }
+
+    50% {
+      border-color: #F4D4C9;
+    }
+  }
+
+  section {
+    padding: 2em;
+  }
+
 }
